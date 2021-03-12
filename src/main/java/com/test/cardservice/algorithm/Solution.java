@@ -6,6 +6,7 @@ public class Solution {
 
     public static void main (String[] args) throws java.lang.Exception
     {
+        System.out.println("Enter Values");
         Scanner s = new Scanner(System.in);
         int j = 1;
         int k = s.nextInt();
