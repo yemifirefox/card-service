@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Solution {
 
+    //Space Complexity 0(n) because loop through the entire array
     public static void main (String[] args) throws java.lang.Exception
     {
         System.out.println("Enter Values");
