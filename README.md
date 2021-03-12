@@ -24,3 +24,6 @@ unless I have to call an API or database or auto generate it.
 Also Because of the time contstraint for the statistics, I decided to you use a static Map to serve as as 
 my database to hold and update API hits. For optimization I could have use an independent cache database like Redis
 to hold the value. So the data in map are lost each time the application is refreshed or restarted.
+
+
+The Algorithm solution can also be found in this application under algorithm folder.
