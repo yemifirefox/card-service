@@ -1,0 +1,10 @@
+name: CICD
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome greeting
+        run: echo "Hello Oluyemi Orimadegun"
+      - name: goodbye greeting
+        run: echo "Goodbye Oluyemi Orimadegun"
